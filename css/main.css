@@ -1,0 +1,122 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.row{
+    margin: 0;
+}
+
+.first{
+    background-image: url(../img/first.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    height: 465px;
+}
+.first h1{
+    font-size: calc(44px + (70 - 44) * ((100vw - 320px) / (1920 - 320)));
+    color: #fff; 
+    text-transform: uppercase;
+    padding-top: 185px;
+    margin-bottom: 50px;
+    padding-left: 20%
+}
+.first span{
+    display: inline-block;
+    border-bottom: 5px solid rgba(255, 255 , 255, .8);
+    font-size: calc(44px + (70 - 44) * ((100vw - 320px) / (1920 - 320)));
+    color: #fff; 
+    text-transform: uppercase;
+    margin-left: 20%;
+    font-weight: 200;
+    line-height: 1.2
+}
+
+
+.second {
+    background-image: url(../img/1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 624px;
+}
+h2{
+    margin-top: 140px;
+    font-size: calc(34px + (50 - 34) * ((100vw - 320px) / (1920 - 320)));
+    color: #04867e;
+    text-transform: uppercase;
+}
+h3{
+    font-size: calc(28px + (40 - 28) * ((100vw - 320px) / (1920 - 320)));
+    color: #04867e;
+}
+p{
+    
+    margin-top: 55px;
+    font-size: calc(19px + (24 - 19) * ((100vw - 320px) / (1920 - 320)));
+    color: #04867e;
+}
+.tst{
+    margin-right: 13.7%;
+    margin-left: auto;
+}
+
+
+.third{
+    background-image: url(../img/2.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    height: 624px;
+}
+
+.fourth{
+    background-image: url(../img/3.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    height: 624px;
+}
+
+.fifth{
+    background-image: url(../img/4.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    height: 624px;
+}
+
+.third .tst,
+.fifth .tst{
+    margin-left: 13.7%;
+    margin-right: auto;
+}
+
+.third h2,
+.fifth h2{
+  color: #fff
+}
+.third h3,
+.fifth h3{
+   color: #fff
+}
+.third p,
+.fifth p{
+ color: #fff
+}
+
+
+@media (max-width: 991px){
+    
+.tst{
+    margin: 0 auto !important;
+    text-align: center !important
+}
+.first h1{
+    text-align: center;
+    padding-left: 0 !important
+}
+.first span{
+    margin-left:50%;
+    transform: translateX(-50%)
+}
+}
